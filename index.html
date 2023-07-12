@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <link rel="shortcut icon" type="x-icon" href="images/akon.webp">
+     <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Akash</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7f3ee70c6c.js" crossorigin="anonymous"></script>
+
+ </head>
+ <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src ="images/logooooo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                     <li><a href="resume/Akash_Resume.pdf" target="_blank" >My Resume</a></li> 
+                    
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>&nbsp;&nbsp;&nbsp;Hi, I'm <span>Akash R</span><br>&nbsp;&nbsp;Software Engineer</h1>
+                <a href="#contact"class="  btnnn btn2">Contact</a>
+                <!--<a href="resume/Akash_Resume.pdf" download class="btn btn2">Download CV</a>-->
+            </div>
+        </div>
+    </div>
+
+<!--------------about------------>  
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/2nd.JPG">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p style="font-family: 'Times New Roman', Times, serif;">
+                
+                Hello, I am Akash! I recently completed my Bachelor of Engineering 
+                degree in 2023 and I am thrilled to embark on my journey in the 
+                field of Computer Science. My passion lies in software and web 
+                development, where I find joy in creating innovative solutions
+                 and bringing ideas to life through coding. As I embark on my
+                  professional career, I am eager to contribute my skills and 
+                  dedication to an organization that fosters growth and provides
+                   opportunities for continuous learning. I am excited to work with 
+                a team of like-minded individuals who share
+                 my passion for creating impactful software solutions.
+                 
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+        </div>
+        <div class="tab-contents active-tab" id="education">
+            <ul>
+                <li><span0>BE(INFORMATION SCIENCE AND ENGINEERING) </span0><br><span1>Acharya Institute of Technology</span1><span5>CGPA - 7.9/10</span5><br><span3>July 2019 - June 2023</span3></li>
+                <li><span0>12th PUC</span0><br><span1>M Krishna P U College</span1><span5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Percentage - 93%</span5><br><span3>March 2018 - April 2023</span3></li>
+                <li><span0>10th CBSE</span0><br><span1>C K S English School</span1><span5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGPA - 9.8/10</span5><br><span3>March 2016 - March 2023</span3></li>
+            </ul>
+        </div>
+        <div class= "tab-contents" id="experience">
+            <ul>
+                <li><span>Business Development Trainee at Intellipaat Software Solutions &nbsp <scam>February 2023 - May 2023</scam></span><br>
+                <span2>•Identified and pursued new business opportunities for the company</span2> 
+                    <br><span2> •Generated leads through various channels to expand the client base.</span2>
+                    <br><span2>•Maintained and nurtured existing client relationships to ensure client satisfaction and retention.</span2></li>
+                <li><span>Internship in Python Programming and Machine Learning at YBI Foundation: <scam>October 2022</scam></span><br>
+                    <span2> •Developed Solid understanding of Python programming language.</span2>
+                    <br><span2>•Became proficient at Python syntax, data structures, and object-oriented programming principles.</span2>
+                    <br><span2>•Gained Familiarity with commonly used Python libraries and frameworks like NumPy, Pandas, </span2>
+                    <br><span2>&nbsp&nbspand Matplotlibfor data analysis and manipulation.</span2></li>
+                
+                 
+            </ul>
+       </div>
+       <div class= "tab-contents" id="certificates">
+            <ul>
+                <li>1.  Python in Action: A Practical Course 50+ Real-World Projects (Udemy)&nbsp;&nbsp;&nbsp;&nbsp;<a href="certificates/python_udemy.jpg" download class="btnn">Download</a></li>
+                <li>2.  HTML, CSS, & Bootstrap - Certification Course for Beginners (Udemy)&nbsp;&nbsp;&nbsp;&nbsp;<a href="certificates/css.jpg" download class="btnn">Download</a><br></li>
+                <li>3.  Power Programmer Virtual Experience Program (Infosys)&nbsp;&nbsp;&nbsp;&nbsp;<a href="certificates/infosys.pdf" download class="btnn">Download</a><br> </li>
+                <li>4.  Software Engineering Virtual Experience Program (Goldman Sachs)&nbsp;&nbsp;&nbsp;&nbsp;<a href="certificates/goldman.pdf" download class="btnn">Download</a></li>
+                <li>5.  Data Visualisation: Empowering Business with Effective Insights (Tata)&nbsp;&nbsp;&nbsp;&nbsp;<a href="certificates/tata.pdf" download class="btnn">Download</a><br></li>
+                
+            </ul>
+        </div>            
+    </div>
+</div>
+</div>  
+</div> 
+<!------------services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title2">My Skills</h1>
+        <div class="services-list">
+            <div>
+                
+                <i class="fa-solid fa-terminal"><span9>Languages</span9></i>
+                <p style="line-height: 2;"><span10>Python</span10></p>
+                <p style="line-height: 2;"><span10> C</span10></p>
+                <p style="line-height: 2;"><span10>C++</span10> </p>
+                <p style="line-height: 2;" > <span10>JavaScript</span10></p>
+                <p style="line-height: 2;"> <span10>Java</span10></p>
+                <!--<a href="#">Learn more</a>  -->  
+            
+            </div>
+            <div>
+                <i3 class="fa-solid fa-database"><span9>&nbsp;Tools</span9></i3>
+                <p style="line-height: 2;"> <span10>Kubernetes</span10></p>
+                <p style="line-height: 2;"> <span10>Git</span10></p>
+                <p style="line-height: 2;"> <span10>AWS</span10></p>
+                <p style="line-height: 2;"> <span10>Power BI</span10></p>
+                <p style="line-height: 2;"> <span10>Vs Code</span10></p>
+                <!--<a href="#">Learn more</a>  -->  
+            </div>
+            <div>
+                <i1 class="fa-solid fa-gear"><span11>&nbsp;&nbsp;&nbsp;Other Skills</span11></i1>
+                <!--<p> <i class="fa-brands fa-html5"></i>HTML </p>-->
+                <p style="line-height: 2;"> <span10>HTML5</span10></p>
+                <p style="line-height: 2;"><span10> CSS3</span10></p>
+                <p style="line-height: 2;"><span10> PHP</span10></p>
+                <p style="line-height: 2;"> <span10>Django</span10></p>
+                <p style="line-height: 2;"><span10> MySQL </span10></p>
+                <!--<p style="line-height: 2;"> <span10>Bootstrap</span10></p>-->
+                
+                
+                <!--<a href="#">Learn more</a>    -->
+            </div>
+        </div>
+     </div>
+ </div>
+
+
+<!-- ------portfolio-----
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/cric.jpg">
+                <div class="layer">
+                    <h3><spam8 class="spam8">T20 Cricket Data Analytics</spam8></h3>
+
+                    <a href="https://github.com/"target="_blank" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cheque.png">
+                <div class="layer">
+                    <h3><spam8 class="spam8">Online Cheque Deposit System</spam8></h3>
+                    
+                    <a href="https://github.com/"target="_blank" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/kuber.png">
+                <div class="layer">
+                    <h3><spam8 class="spam8">Deploy Cloud Native Monitoring Application on Kubernetes</spam8></h3>
+                   
+                    <a href="https://github.com/" target="_blank" class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+         -<a href="#" class="btn">See more</a> 
+    </div>
+</div>-->
+
+
+<!----NEWWWWWWWWWWW portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title1">My Work</h1>   
+    <section class="container2">
+        <div class="card">
+            <div class="card-image car-1"></div>
+            <h2>Ridex Car Rental</h2>
+            <p>Hello, I am Akash! I recently completed my Bachelor of Engineering 
+                degree in 2023 and I am thrilled to embark on my journey in the 
+                field of Computer Science. My passion lies in software and web 
+                development, where I find joy in creating innovative solutions
+                 and bringing ideas to life through  </p>
+            <a href="https://akashravikumarr.github.io/ridex/#" target="_blank">Live Demo ></a>
+            <a href="https://github.com/akashravikumarr/ridex/" target="_blank">&nbsp;&nbsp;Github ></a>
+        </div>
+        <div class="card">
+            <div class="card-image car-2"></div>
+            <h2>Online Cheque Deposit System</h2>
+            <p>Hello, I am Akash! I recently completed my Bachelor of Engineering 
+                degree in 2023 and I am thrilled to embark on my journey in the 
+                field of Computer Science. My passion lies in software and web 
+                development, where I find joy in creating innovative solutions
+                 and bringing ideas to life through </p>
+            <a href="https://github.com/" target="_blank">Live Demo ></a>
+            <a href="https://github.com/" target="_blank">&nbsp;&nbsp;Github ></a>
+        </div>
+        <div class="card">
+        <div class="card-image car-3"></div>
+        <h2>Online Cheque Deposit System</h2>
+        <p>Hello, I am Akash! I recently completed my Bachelor of Engineering 
+            degree in 2023 and I am thrilled to embark on my journey in the 
+            field of Computer Science. My passion lies in software and web 
+            development, where I find joy in creating innovative solutions
+             and bringing ideas to life through </p>
+            <a href="https://github.com/" target="_blank">Live Demo ></a>
+            <a href="https://github.com/" target="_blank">&nbsp;&nbsp;Github ></a>
+        </div>
+        <div class="card">
+            <div class="card-image car-1"></div>
+            <h2>Online Cheque Deposit System</h2>
+            <p>Hello, I am Akash! I recently completed my Bachelor of Engineering 
+                degree in 2023 and I am thrilled to embark on my journey in the 
+                field of Computer Science. My passion lies in software and web 
+                development, where I find joy in creating innovative solutions
+                 and bringing ideas to life through  </p>
+            <a href="https://github.com/" target="_blank">Live Demo ></a>
+            <a href="https://github.com/" target="_blank">Github ></a>
+        </div>  
+    </div>
+    </div>
+  </section>
+  
+
+
+<!------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title"> Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>akashravikumarr@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9036301480</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/"target="_blank" class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/home"target="_blank" class="fa-brands fa-twitter"></i></i></a>
+                <a href="https://www.instagram.com/"target="_blank" class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/akashrr/"target="_blank" class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="resume/Akash_Resume.pdf" target="_blank" class="btn btn2">My Resume</a>
+            <!--<a href="resume/Akash_Resume.pdf" download class="btn btn2">Download CV</a>-->
+            </div>
+
+
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+        </div>
+    </div>
+</div>
+    <div class="copyright">
+        <p><p>Copyright 2023 © Akash R </p>
+    </p>
+    </div>
+</div>
+
+ 
+ 
+ 
+ <!----------Script------------>
+ 
+ 
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxqEZaa8gDH5wxROqy395rou7XeCsZK3l_Cjgk5bKQOe1QBff24LvKlGUQ2FJgQNYDB/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+                form.reset()
+            })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+ </body>
+ </html>
