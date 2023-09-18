@@ -535,7 +535,7 @@ p { font-size: 20px; }
 }
 
 .car-1{
-    background-image: url(images/cric.jpg);
+    background-image: url(images/ridex.jpg);
     height: 250px;
     margin-bottom: 15px;
     background-size: cover;
@@ -553,12 +553,21 @@ p { font-size: 20px; }
 }
 
 .car-3{
-    background-image: url(images/kuber.png);
+    background-image: url(images/cric.jpg);
     height: 250px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
+
+.car-4{
+    background-image: url(images/linkedin.jpg);
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
 
 .card h2{
     padding: 10px;
