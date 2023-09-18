@@ -563,6 +563,7 @@ p { font-size: 20px; }
 .car-4{
     background-image: url(images/linkedin.jpg);
     height: 250px;
+
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
